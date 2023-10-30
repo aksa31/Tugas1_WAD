@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(32, 32, 156);
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+main{
+    display: flex;
+    
+}
+
+.foto{
+    background-color: whitesmoke;
+    color: black;
+    flex: 1;
+    height: 400px;
+    /* margin-right: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.foto h2{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    
+}
+
+.container h2{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    /* margin-top: 0;
+    margin-bottom: 3; */
+}
+
+.container p{
+background-color: antiquewhite;
+display: flex;
+flex: 8;
+margin: 0;
+}
+
+.container h3{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    /* margin-top: 0;
+    margin-bottom : 0; */
+}
+
+
+.fotoaja img{
+    /* flex: 1%; */
+    /* display: flex; */
+    height: 300px;
+    width: auto;
+    /* padding: 10%; */
+    /* padding-bottom: 10px; */
+    }
+
+footer{background-color: rgb(32, 32, 156);
+    display: flex;
+    justify-content:left;
+    color: white;
+    flex-direction:column;
+    height: 100px;
+    padding: 0%;    
+    margin : 0;}
+
+
+.fotoig img{
+    height: 40px;
+    width: auto;
+}
+
+.fotoig p{
+    padding-left: 10px;
+}
+
+.fotoig{
+    display: flex;
+    flex-direction: row;
+}  
+
+.fotowa img{
+    height: 40px;
+    width: auto;
+    
+}
+
+.fotowa p{
+    padding-left: 10px;
+}
+
+.fotowa{
+    display: flex;
+    flex-direction: row;
+}
